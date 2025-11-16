@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR-USERNAME/python_hello_student.git'
+                git branch: 'main', url: 'https://github.com/Dhavall45/studpy.git'
             }
         }
 
